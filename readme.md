@@ -13,7 +13,7 @@ Luego debemos entrenar otro modelo que clasifique si el auto es de gama baja o a
 
 ## Procedimiento
 <p align="justify">
-1) Primero se realiza un análisi exploratorio de los datos que se encuentras en el archivo <strong>ML_cars.csv</strong>. En esta etapa se verifica que no hay valores faltantes ni valores atípicos pero si tenemos varios datos con diferentes tipos de distribuciones. Esto se analiza mediante <strong>seaborn<7strong> principalmente debido a su practicidad.
+1) Primero se realiza un análisi exploratorio de los datos que se encuentras en el archivo <strong>ML_cars.csv</strong>. En esta etapa se verifica que no hay valores faltantes ni valores atípicos pero si tenemos varios datos con diferentes tipos de distribuciones. Esto se analiza mediante <strong>seaborn</strong>strong> principalmente debido a su practicidad.
 </p>
 <p align="justify">
 2) Luego se procede a la transformación de datos para que los modelos de machine learning puedan utilizarlos. En esta etapa se utiliza principalmente el método de pandas <strong>get.dummies()</strong> que lo que hace es crear columnas para las diferentes categorias de las variables cualitativas y por decirlo de una manera simple codificarlas.
